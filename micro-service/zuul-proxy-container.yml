@@ -16,5 +16,5 @@ zuul:
 
     tags:
       path: /tags/**
-      serviceId: http://todo-service:8080
+      url: http://todo-service:8080
       stripPrefix: false
