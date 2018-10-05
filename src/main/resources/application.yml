@@ -3,7 +3,6 @@ spring:
     config:
       server:
         git:
-          #uri: https://github.com/Jason-zf/spring-cloud-config-server.git
           search-paths: micro-service
           timeout: 60
           skipSslValidation: true
